@@ -1,11 +1,11 @@
 # MsDS-supervised-nlp-auto-classification-for-sfdc-documentation
 DTSA 5506 - Project - Auto-Classifying Salesforce Cloud Documentation Using NLP &amp; Supervised Learning
 
-# Abstract
+## Abstract
 
 Develop a natural language processing (NLP) model to automate the classification of Salesforce documentation across various product features and cloud services, such as Sales Cloud and Service Cloud. Using a range of supervised learning algorithms,explore the feasibility of reducing manual content tagging by automatically categorizing documentation based on textual content. By leveraging tools like BeautifulSoup and Selenium for data collection and employing machine learning techniques such as TF-IDF vectorization, Support Vector Machine (SVM), and Logistic Regression, create a comprehensive pipeline for classifying Salesforce documentation. The models were trained and evaluated on a custom dataset of over 1,400 documents, achieving validation accuracies as high as 99.32%. The best-performing model, a Linear SVM, demonstrated exceptional accuracy and generalization across multiple levels of classification tasks, ranging from high-level cloud categorization (L0) to more granular job-specific (L1) and feature-specific (L2) tagging. By automating the classification process, provide a scalable solution for improving documentation discoverability and consistency across Salesforce platforms, significantly reducing the manual tagging workload while enhancing the precision and reliability of content retrieval.
 
-# Results and Findings
+## Results and Findings
 
 Across L0, L1, and L2, Linear SVM consistently proved to be the most effective model, maintaining high accuracy, precision, and recall. Other linear models like SGD and Ridge Classifier performed similarly well, while non-linear models, especially AdaBoost, showed weaker performance. Hyperparameter tuning further optimized model accuracy, demonstrating that linear models are particularly well-suited for classifying Salesforce documentation at different levels of granularity.
 
